@@ -7,8 +7,8 @@ function createWindow() {
         width: 800,
         height: 600,
         webPreferences: {
-            nodeIntegration: true,
-            contextIsolation: false, // Enable access to Node.js APIs in your app
+            nodeIntegration: false,
+            contextIsolation: true, // Enable access to Node.js APIs in your app
         }
     });
 
